@@ -1,0 +1,95 @@
+body{
+    background: blueviolet;
+
+}
+body{
+    background: lightblue;
+}
+/*cascading style sheets mean that the second color referenced will be the chosen color*/
+
+
+
+
+
+
+
+/*hhghghghghghghghghghghghhghghghghghhghghghghghghghghghghghghg*/
+
+*{ /*getting at everything*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(123, 202 255); /*red green blue*/
+    font-family: Arial, Arial, Helvetica, sans-serif;
+
+}
+#header{ /*# to call a class or id*/
+    text-align: right;
+    background: white;
+    padding: 25px 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 75px;
+    box-shadow: 0px 3px 5px black;
+
+}
+#header a{ /*currently in the header and get at the a tags in the header*/
+    padding:8px 20px; /*left to right then bottom to top as far as editing numbers go*/
+    margin:10px;
+    background: rgb(123, 202, 255);
+    text-decoration: none;
+    border: 1 solid gray;
+    border-radius: 10px; /*rounds the buttons*/
+    color: white 
+
+}
+#form{
+    width:300px;
+    margin:auto; /*auto align at the margins for each side and with left and right it evenly does it half and half of a page*/
+    padding: 30px 25px;
+    background: white;
+    border: 1 solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px black;
+
+}
+#form h2{
+    margin: 10px;
+}
+#inputdiv{
+    text-align: center;
+}
+#inputdiv input{
+    width: 90%;
+    margin: 13px 0;
+    padding: 7px;
+    outline: none;
+    border:1px solid gray;
+    border-radius: 3px;
+
+}
+#submit{
+    width: 95%;
+    margin-bottom: 5px;
+    background: rgb(123, 202, 255);
+    color:white;
+    border: 1px solid grey;
+    padding: 6px;
+    border-radius: 3px;
+
+}
+#image{
+    text-align: center;
+    margin-top: top 30px;
+}
+#image a{
+    text-decoration: none
+}
+#image img{
+    width: 30px;
+    height: 30px;
+    border-radius:25px;
+    margin: 0 5px;
+    border: 1px solid grey;
+
+}
